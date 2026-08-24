@@ -26,7 +26,7 @@ I am unfortunately unable to post the associated papers/reports. I'll find a way
 <ol>
 	<li>
 		<b>Minimal Surfaces in 3D; the case of two coaxial rings, and computing the different cases</b>
-		<p>This was conducted as part of a first-year science Dalyell research unit at USyd conducting research under supervision. We managed to rederive the conditions on the parameters for which different minimal surfaces exist in the case of coaxial rings; I led most of the research effort with help from my supervisor, and derived most of the key results we got in the end. I also discovered a completely new result, but due to time constraints was unable to figure out why.</p>
+		<p>This was conducted as part of a first-year science Dalyell research unit at USyd conducting research under supervision. We managed to rederive the conditions on the parameters for which different minimal surfaces exist in the case of coaxial rings; I led most of the research effort with help from my supervisor, and derived most of the key results we got in the end. I also discovered a completely new result, but due to time constraints was unable to figure out why it was true.</p>
 		<p><b>The new result, and a question!</b></p>
 		<p>Consider the unstable catenoid with boundaries being congruent coaxial rings. The rings are separated with distance <math>
 		<mrow>
@@ -40,7 +40,7 @@ I am unfortunately unable to post the associated papers/reports. I'll find a way
 				<mi>f</mi>
 				<mrow>
 				<mo fence="true" form="prefix" stretchy="false">(</mo>
-				<mi>r</mi>
+				<mi>z</mi>
 				<mo separator="true">,</mo>
 				<mi>θ</mi>
 				<mo fence="true" form="postfix" stretchy="false">)</mo>
@@ -52,11 +52,11 @@ I am unfortunately unable to post the associated papers/reports. I'll find a way
 				</msup>
 				<mo>−</mo>
 				<msup>
-				<mi>r</mi>
+				<mi>z</mi>
 				<mn class="tml-sml-pad">2</mn>
 				</msup>
 			</mrow>
-		</math>. This variation does show that the unstable catenoid is unstable for large enough <math>
+		</math> where the parameters are local coordinates in the obvious way. This variation does show that the unstable catenoid is unstable for large enough <math>
 			<mrow>
 				<mi>r</mi>
 				<mi>/</mi>
@@ -71,7 +71,7 @@ I am unfortunately unable to post the associated papers/reports. I'll find a way
 			<mo>≳</mo>
 			<mn>1.509</mn>
 			</mrow>
-		</math> as confirmed by using numerical integration techniques. This misses an interval of ~0.0022, and is substantial enough to be of interest. The question is, <b>why does this happen?</b> Intuitively ths particular variation should always reduce area when looking at the actual picture.<br>Our original idea as to why was that our numerical integrator was having a bad time and some floating-point errors got through, completely ruining the calculation. However there may be some other, more abstract and interesting reason as to why this occurred.</p>
+		</math> as confirmed by using numerical integration techniques. This misses an interval of length ~0.0022, and is substantial enough to be of interest. The question is, <b>why does this happen?</b> Intuitively ths particular variation should always reduce area when looking at the actual picture.<br>Our original idea as to why was that our numerical integrator was having a bad time and some floating-point errors got through, completely ruining the calculation. However there may be some other, more abstract and interesting reason as to why this occurred.</p>
 	</li>
 	<li>
 		<b>Investigation into Schottky Groups</b>
